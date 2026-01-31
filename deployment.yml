@@ -19,6 +19,6 @@ spec:
           image: jayzebra/wtmapi:latest
           ports:
             - containerPort: 9090
-          env:
-            - name: SERVER_PORT
-              value: "9090"
+          # env:
+            # - name: SERVER_PORT
+            #   value: "9090"
