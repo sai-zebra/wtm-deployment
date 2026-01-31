@@ -20,5 +20,5 @@ spec:
           ports:
             - containerPort: 9090
           env:
-           - name:SERVER_PORT
-             value: "9090"
+            - name: SERVER_PORT
+              value: "9090"
