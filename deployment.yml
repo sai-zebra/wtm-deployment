@@ -18,7 +18,7 @@ spec:
         - name: backend
           image: jayzebra/wtmapi:latest
           ports:
-            - containerPort: 9090
+            - containerPort: 8080
           # env:
             # - name: SERVER_PORT
             #   value: "9090"
