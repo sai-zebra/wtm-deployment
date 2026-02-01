@@ -7,8 +7,6 @@ replicaCount: 1
 image:
   repository: jayzebra/wtmapi
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
@@ -42,6 +40,7 @@ securityContext: {}
 service:
   type: LoadBalancer
   port: 80
+  targetPort: 8080
 
 ingress:
   enabled: false
